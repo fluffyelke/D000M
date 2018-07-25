@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Constants.h</itemPath>
+      <itemPath>Game.h</itemPath>
+      <itemPath>GameState.h</itemPath>
+      <itemPath>Level.h</itemPath>
+      <itemPath>states/Load.h</itemPath>
+      <itemPath>states/Lost.h</itemPath>
+      <itemPath>states/Play.h</itemPath>
+      <itemPath>utils/Print.h</itemPath>
+      <itemPath>states/Select.h</itemPath>
+      <itemPath>states/Won.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Game.cpp</itemPath>
+      <itemPath>GameState.cpp</itemPath>
+      <itemPath>Level.cpp</itemPath>
+      <itemPath>states/Load.cpp</itemPath>
+      <itemPath>states/Lost.cpp</itemPath>
+      <itemPath>states/Play.cpp</itemPath>
+      <itemPath>utils/Print.cpp</itemPath>
+      <itemPath>states/Select.cpp</itemPath>
+      <itemPath>states/Won.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>assets/levels/levelOne.txt</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>sfml-graphics</linkerLibLibItem>
+            <linkerLibLibItem>sfml-window</linkerLibLibItem>
+            <linkerLibLibItem>sfml-system</linkerLibLibItem>
+            <linkerLibLibItem>sfml-main</linkerLibLibItem>
+            <linkerLibLibItem>sfml-audio</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Level.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Level.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/levels/levelOne.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Load.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Load.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/Lost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Lost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/Play.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Play.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/Select.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Select.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/Won.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Won.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/Print.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils/Print.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Level.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Level.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/levels/levelOne.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Load.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Load.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/Lost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Lost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/Play.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Play.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/Select.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Select.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/Won.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/Won.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/Print.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils/Print.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
