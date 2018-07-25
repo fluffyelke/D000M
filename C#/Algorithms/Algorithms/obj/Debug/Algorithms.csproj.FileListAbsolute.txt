@@ -1,0 +1,7 @@
+E:\Projects\C#\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+E:\Projects\C#\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+E:\Projects\C#\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+E:\Projects\C#\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+E:\Projects\C#\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+E:\Projects\C#\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+E:\Projects\C#\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
